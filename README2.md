@@ -45,8 +45,17 @@ A Repo for practicing Git
   - **git diff --stat origin/master**
   - git reset --soft HEAD~1
   - git whatchanged 
-    
-    
+<br> 
+<br> 
+
+###  **WHAT I LEARNED**  
+
+* Cannot reset initial commit.  
+* TO PUSH the new branch:    
+  - 1. Move to new branch on local; then:     
+  - 2. **git push -u origin dev1**  
+  
+  
   
   
 

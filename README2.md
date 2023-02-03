@@ -57,7 +57,12 @@ A Repo for practicing Git
   - 1. Move to new branch on local; then:     
   - 2. **git push -u origin dev1**  
   
-  
+### Make Changes to global config alias file.  
+
+* Global config will open in safe mode unless you run the following code first:  
+* git config --global --unset includeIf.gitconfig.path
+* git config --global --edit  
+
   
   
 

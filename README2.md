@@ -6,6 +6,8 @@ A Repo for practicing Git
 
 1. [Eddie Jaoude Part3](https://www.youtube.com/watch?v=LsQjcX3b0ZM&list=PL4lTrYcDuAfxAgSefXftJXbhw0qvjfOFo&index=3)  
 
+2. [Becoming a Data Scientist - Beginner Git#5](https://www.youtube.com/watch?v=UmE0uf5UMzA)
+
 ### git commands  
 
 * Create a new branch to do *pull requests*  

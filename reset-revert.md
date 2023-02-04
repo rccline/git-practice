@@ -21,4 +21,20 @@ You will see the conflicting changes marked in the file.
 5. Run the command git revert --continue to complete the revert process.
 6. Verify that the conflict has been resolved by running git status.
 
-You should now be able to successfully revert the 317a9c4 commit.
+You should now be able to successfully revert the 317a9c4 commit. 
+
+### [Eddie Jaoude's method to **git revert**](https://www.youtube.com/watch?v=YUHS5Ana7Jw) 
+
+* git status -s  
+* git whatchanged  
+* git diff master  
+* git checkout master -- package-lock.json  
+* git status -s  
+* git commit -m "fix package lock file" . 
+* git status -s  
+* git diff master  
+  - will only see the changes to that one file  
+  
+
+
+

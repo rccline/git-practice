@@ -1,3 +1,7 @@
 1. I will commit, 
 2. then make a change to working directory by adding line 4
 3. Then I will bring this file back to the WD using ??? See 6:06 in "How to undo changes1"
+
+4. I added this line after commit 1097f3efff906843a11c42fee998727cb2264b80 
+
+

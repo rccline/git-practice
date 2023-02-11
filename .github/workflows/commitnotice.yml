@@ -6,7 +6,7 @@ on:
       - master
 
 env:
-  EMAIL_ADDRESS: dasrotrad@gmail.com
+  EMAIL_ADDRESS: rccline@fastmail.fm
   EMAIL_SUBJECT: "New Commit Pushed to Repository"
   EMAIL_BODY: |
     A new commit has been pushed to the repository.

@@ -1,0 +1,24 @@
+name: Send email on push
+
+on:
+  push:
+    branches:
+      - master
+
+env:
+  EMAIL_ADDRESS: dasrotrad@gmail.com
+  EMAIL_SUBJECT: "New Commit Pushed to Repository"
+  EMAIL_BODY: |
+    A new commit has been pushed to the repository.
+
+    Commit message: ${{ github.event.head_commit.message }}
+    Commit author: ${{ github.event.head_commit.author.username }}
+
+steps:
+  - name: Send email
+    uses: google/gmail-action@v1
+    with:
+      args: send -f ${{ secrets.MAIL_USERNAAME }} -t ${{ env.EMAIL_ADDRESS }} -u "${{ env.EMAIL_SUBJECT }}" -m "${{ env.EMAIL_BODY }}"
+    env:
+      GMAIL_PASSWORD: ${{ secrets.MAIL_PASSWORD }}
+      GMAIL_FROM: ${{ secrets.MAIL_USERNAME }}

@@ -30,6 +30,7 @@ A Repo for practicing Git
   
 * **Remove the file completely**  
   - *git reset --hard* 
+  - *git stash drop* also removes the file from stash and the working directory.  
   
 * **replace the file in working directory with the staged file**:  
   - *git checkout filename* 
